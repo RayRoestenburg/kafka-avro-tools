@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kafka-avro-tools
+spec:
+  containers:
+  - name: kafka-avro-tools
+    image: docker.io/rayroestenburg/kafka-avro-tools:latest
+    command: [ "/bin/bash", "-c", "--" ]
+    args: [ "while true; do sleep 30; done;" ]
