@@ -1,6 +1,6 @@
 # kafka-avro-tools
 
-Very simple docker image to read avro messages from a kafka topic.
+Very simple docker image to read avro messages from a kafka topic and print these in JSON format.
 NOTE: you need to add your own schema files to the schemas directory before building the image.
 
 ## Build
