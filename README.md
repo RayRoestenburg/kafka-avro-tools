@@ -1,7 +1,7 @@
 # kafka-avro-tools
 
 Very simple docker image to read avro messages from a kafka topic.
-NOTE: you need to add your own schema files to the image or via volume mount in the pod.
+NOTE: you need to add your own schema files to the schemas directory before building the image.
 
 ## Build
 
